@@ -4,7 +4,7 @@ public class Pila{
     // metodi get/set
 
         public Nodo getTop(){
-            return Nodo;
+            return top;
         }
         public void setTop(Nodo top){
             this.top = top;
@@ -28,7 +28,7 @@ public class Pila{
         }
         public String POP(){
             if (isEmpty()){
-                return null
+                return null;
             }
             String valoreRecuperato = top.getValore();
             top = top.getSuccessivo();
@@ -37,7 +37,7 @@ public class Pila{
         }
         public String peek(){
             if (isEmpty()){
-                return null
+                return null;
         }
         return top.getValore();
         }
