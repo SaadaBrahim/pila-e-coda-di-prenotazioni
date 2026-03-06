@@ -8,9 +8,9 @@ public class Main {
         miaPila.push("documento 2");
         miaPila.push("documento 3");
         
-        System.out.println("in cima" + miaPila.peek());
-        System.out.println("estraggo" + miaPila.POP());
-        System.out.println("estraggo" + miaPila.POP());
+        System.out.println("in cima " + miaPila.peek());
+        System.out.println("estraggo " + miaPila.POP());
+        System.out.println("estraggo " + miaPila.POP());
         System.out.println("la pila e vuota? " + miaPila.isEmpty());
 
         System.out.println("\n TEST CODA");
@@ -21,9 +21,9 @@ public class Main {
         miaCoda.enqueue("persona B");
         miaCoda.enqueue("persona C");
         
-        System.out.println("primo in fila" + miaCoda.theQ());
+        System.out.println("primo in fila " + miaCoda.theQ());
         System.out.println("servo " + miaCoda.dequeue());
-        System.out.println("servo" + miaCoda.dequeue());
+        System.out.println("servo " + miaCoda.dequeue());
         System.out.println("la coda e vuota? " + miaCoda.isEmpty());
     }
 }
